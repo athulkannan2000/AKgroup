@@ -21,5 +21,5 @@ with smart_run(session):
                                     min_following=77)
     #session.set_dont_include(["friend1", "friend2", "friend3"])
     #session.set_dont_like(["pizza", "#store"])
-    session.set_smart_hashtags(['python', 'roadbike'], limit=3, sort='top', log_tags=True)
+    session.set_smart_hashtags(['python', 'apple'], limit=3, sort='top', log_tags=True)
     session.like_by_tags(amount=10, use_smart_hashtags=True)
